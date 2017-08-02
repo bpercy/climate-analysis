@@ -24,6 +24,8 @@ for line in climate_data:
         if fahr != -9999:
             celsius = temp_conversion.fahr_to_celsius(fahr)
             kelvin = temp_conversion.fahr_to_kelvin(fahr)
+            
+            # TODO precip processing
 
             print(str(celsius)+", "+str(kelvin))
  
